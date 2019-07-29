@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 75191c5fa8bfb9b44bb78ec5384f0746, type: 3}
+  title: Custom Lighting in Shader Graph
+  sections:
+  - heading: 2019.2 Sample Project
+    text: This project comes with sample graphs to showcase custom lighting techniques
+      using Shader Graph. An in-depth breakdown of the lighting techniques can be
+      found in the accompanying blog post. Check out the extra read me files in the
+      subfolders for some breakdowns of the expanded lighting techniques found in
+      this project.
+    linkText: Custom Lighting in Shader Graph
+    url: https://blogs.unity3d.com/?p=82308
+  - heading: 
+    text: 'The Shader Graph tool allows users to create shaders using a visual node
+      editor instead of writing code. Read more about the shader graph here:'
+    linkText: Shader Graph
+    url: https://docs.unity3d.com/Packages/com.unity.shadergraph@6.9/manual/index.html
+  - heading: 
+    text: 'This project is using the Lightweight Render Pipeline. Read more about
+      this scriptable render pipeline here: '
+    linkText: Lightweight Render Pipeline
+    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.lightweight@6.9/manual/index.html
+  - heading: 
+    text: 'This project was created for Unity 2019.2 . Opening the project in other
+      versions of Unity may result in unexpected behavior. '
+    linkText: 
+    url: 
+  loadedLayout: 1
